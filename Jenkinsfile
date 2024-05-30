@@ -5,7 +5,7 @@ pipeline {
     }
   }
 
-  env.WORKSPACE = '\\C:\ProgramData\Jenkins\.jenkins\workspace\my-setup_main'
+  env.WORKSPACE = '//C:/ProgramData/Jenkins/.jenkins/workspace/my-setup_main'
 
   stages{
       stage('build') {
