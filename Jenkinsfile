@@ -3,11 +3,7 @@ pipeline {
     dockerfile true
   }
 
-  // environment {
-  //   WORKSPACE = '//C:/ProgramData/Jenkins/.jenkins/workspace/my-setup_main'
-  // }
-
-  stages{
+  stages {
       stage('build') {
         steps {
           bat 'node -v'
